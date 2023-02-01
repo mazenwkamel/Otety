@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Otety",
+  "name": "obj_inv_wall",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "characters",
-    "path": "folders/Objects/characters.yy",
+    "name": "env",
+    "path": "folders/Objects/env.yy",
   },
   "parentObjectId": null,
   "persistent": false,
