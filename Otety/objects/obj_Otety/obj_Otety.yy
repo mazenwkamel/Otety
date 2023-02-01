@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Otety",
+  "name": "obj_otety",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "otety",
+    "path": "sprites/otety/otety.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
