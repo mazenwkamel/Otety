@@ -22,7 +22,9 @@
   "ResourceOrderSettings": [
     {"name":"otety","order":2,"path":"sprites/otety/otety.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_shield_sphere","order":1,"path":"objects/obj_shield_sphere/obj_shield_sphere.yy",},
     {"name":"spr_enemy","order":1,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"spr_shield_sphere","order":1,"path":"sprites/spr_shield_sphere/spr_shield_sphere.yy",},
   ],
 }
