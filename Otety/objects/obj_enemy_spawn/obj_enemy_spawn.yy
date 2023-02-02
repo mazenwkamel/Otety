@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shield_sphere",
+  "name": "obj_enemy_spawn",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "env",
-    "path": "folders/Objects/env.yy",
+    "name": "game",
+    "path": "folders/Objects/game.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_shield_sphere",
-    "path": "sprites/spr_shield_sphere/spr_shield_sphere.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
