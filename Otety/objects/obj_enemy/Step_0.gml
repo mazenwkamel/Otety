@@ -3,6 +3,7 @@
 /// Free fall
 verticalSpeed += grav * verticalAcceleration;
 
+
 /// Vertical Collision 
 if (place_meeting(x, y + verticalSpeed, obj_inv_wall))
 {
@@ -13,6 +14,7 @@ if (place_meeting(x, y + verticalSpeed, obj_inv_wall))
 	verticalSpeed = 0;
 }
 y = y + verticalSpeed;
+
 
 /// Movement
 if (verticalSpeed != 0) { // In Air
