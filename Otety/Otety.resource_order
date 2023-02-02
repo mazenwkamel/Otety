@@ -18,8 +18,10 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"characters","order":2,"path":"folders/Sprites/characters.yy",},
+    {"name":"game","order":4,"path":"folders/Objects/game.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_enemy_spawn","order":1,"path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},
     {"name":"otety","order":2,"path":"sprites/otety/otety.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_shield_sphere","order":1,"path":"objects/obj_shield_sphere/obj_shield_sphere.yy",},
