@@ -11,7 +11,7 @@ if(x > mouse_x)
 }
 
 
-//Get player input
+/// Get player input
 leftKey = keyboard_check(ord("A"));
 rightKey = keyboard_check(ord("D"));
 jumpKey = keyboard_check(vk_space);
@@ -22,34 +22,31 @@ horizontalSpeed = _move * walkSpeed;
 
 verticalSpeed += grav;
 
-if (place_meeting(x,y+1,obj_inv_wall)) && (jumpKey)
+if (place_meeting(x, y + 1,obj_inv_wall)) && (jumpKey)
 {
 	verticalSpeed = -jumpSpeed;	
 }
-//Horizontal Collision 
 
-if (place_meeting(x+horizontalSpeed,y,obj_inv_wall))
+/// Horizontal Collision 
+if (place_meeting(x + horizontalSpeed, y, obj_inv_wall))
 {
-	while(!place_meeting(x+sign(horizontalSpeed),y,obj_inv_wall))
+	while(!place_meeting(x + sign(horizontalSpeed), y, obj_inv_wall))
 	{
 		x = x + sign(horizontalSpeed);	
 	}
 	horizontalSpeed = 0;
 }
-
 x = x + horizontalSpeed;
 
-//Vertical Collision 
-
-if (place_meeting(x,y+ verticalSpeed,obj_inv_wall))
+/// Vertical Collision 
+if (place_meeting(x, y + verticalSpeed, obj_inv_wall))
 {
-	while(!place_meeting(x,y+sign(verticalSpeed),obj_inv_wall))
+	while(!place_meeting(x, y + sign(verticalSpeed), obj_inv_wall))
 	{
 		y = y + sign(verticalSpeed);	
 	}
 	verticalSpeed = 0;
 }
-
 y = y + verticalSpeed;
 
 
